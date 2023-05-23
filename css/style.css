@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 25px;
+    color: #aaa;
+    font-weight: bolder;
+    padding: 20px;
+}
+span{
+    font-size: 14px;
+    color: #aaa;
+    font-weight: bolder;
+    padding: 20px;
+}
+.body{
+    padding: 30px;
+    background-color: #eee;
+}
+h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+label{
+    color: #333;
+    font-weight: bold;
+}
+#demo{
+    background-image: linear-gradient(#EEE,#FFF);
+}
+.del{
+    background-color: #910004;
+    transition: all 0.1s;
+}
+.del:hover{
+    background-color: #510d0e;
+    border: 1px solid #510d0e;
+    box-shadow: 5px 5px 5px #aaa;
+}
+#visit,#submit{
+    transition: all 0.1s;
+}
+#visit:hover{
+    background-color: #0a3f77;
+    border: 1px solid #0a3f77;
+    box-shadow: 5px 5px 5px #aaa;
+}
+#submit:hover{
+    background-color: #0a3f77;
+    border: 1px solid #0a3f77;
+    box-shadow: 5px 5px 5px #aaa;
+}
